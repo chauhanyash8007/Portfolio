@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yash Chauhan | Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="greeting">Hi, I'm Yash Chauhan</h1>
+      <p>Full-Stack Web Developer</p>
+    </header>
+
+    <nav>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a passionate full-stack developer with experience in building
+        dynamic web applications using the MERN stack.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <strong>Airbnb Clone</strong><br />
+          A fully functional booking app built with React, Node.js, MongoDB, and
+          Express.<br />
+          <a
+            href="https://github.com/chauhanyash8007/Airbnb"
+            target="_blank"
+            rel="noopener noreferrer"
+            >View on GitHub</a
+          >
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form id="contact-form" novalidate>
+        <label for="email">Email:</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="your.email@example.com"
+          required
+        /><br />
+        <label for="message">Message:</label><br />
+        <textarea
+          id="message"
+          name="message"
+          rows="5"
+          placeholder="Write your message here"
+          required
+        ></textarea
+        ><br />
+        <button type="submit">Send</button>
+        <p id="form-message" role="alert"></p>
+      </form>
+    </section>
+
+    <footer>
+      <p>© 2025 Yash Chauhan</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
